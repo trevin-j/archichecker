@@ -10,7 +10,7 @@ If you want to be able to use the program from anywhere on the pc, you can put t
 
 ## Build
 
-To build ArchiChecker, if you have MinGW, or MinGW-W64, you can use the included build scripts. To build in debug mod, double-click on `build-d-mingw.bat`, or for release mode, double-click on `build-r-mingw.bat`. For this to work you much also have CMake installed on your system and added to the path, and MinGW must be added to the path.
+To build ArchiChecker, if you have MinGW, or MinGW-W64, you can use the included build scripts. To build in debug mode, double-click on `build-d-mingw.bat`, or for release mode, double-click on `build-r-mingw.bat`. For this to work you much also have CMake installed on your system and added to the path, and MinGW must be added to the path.
 
 Otherwise, you can build it however you want. Use CMake to genrate a build system for your compiler of choice, or heck you could even just open the code in an IDE and build it from there. The whole project exists within a single `main.cpp` file, so you can use any compiler you want.
 
